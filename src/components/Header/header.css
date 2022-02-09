@@ -1,6 +1,6 @@
-nav {
+.container {
     height: 70px;
-    background: #000;
+    background: rgb(24, 6, 6);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,4 +11,21 @@ h2 {
     text-decoration: none;
     color: white;
     font-size: 35px;
+}
+.fas {
+    color: white;
+    font-size: 25px;
+}
+
+.cartCount {
+    background-color: yellow;
+    color: black;
+    border-radius: 50%;
+    font-style: normal;
+    vertical-align: 7px;
+    margin-left: 7px;
+    padding: 5px 9px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Nunito",sans-serif;
 }
