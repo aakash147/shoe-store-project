@@ -19,7 +19,7 @@
 }
 
 .img-container{
-    height: 130px;
+    height: 340px;
 }
 .img-container img{
     width: 100%;
@@ -61,4 +61,10 @@ h3{
     right: 10px;
     top: 10px;
     width: 20px;
+}
+
+.brandText {
+    font-size: 12px !important;
+    text-align: center;
+    color: rgb(102, 102, 102) !important;
 }
