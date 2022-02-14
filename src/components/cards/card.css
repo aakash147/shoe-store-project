@@ -1,9 +1,10 @@
 .ad{
     width: 285px;
-    height: 400px;
+    height: 450px;
     background-color: #eee;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 35px;
+    margin-bottom: 20px;
     position: relative;
     border: 1px solid #dcdcdc;
     border-radius: 5px;
@@ -26,11 +27,6 @@
     max-height: 350px;
 }
 
-h3{
-    margin-bottom: 0;
-    font-size: 18px;
-    font-weight: bolder;
-}
 .time{
     right: 10px;
     bottom: 10px;
@@ -63,8 +59,30 @@ h3{
     width: 20px;
 }
 
+.descriptionDiv {
+    margin-top: 20px;
+}
+
 .brandText {
-    font-size: 12px !important;
+    font-size: 12px;
     text-align: center;
-    color: rgb(102, 102, 102) !important;
+    color: #999;
+    letter-spacing: .5px;
+    font-weight: 550;
+}
+
+.title {
+    text-transform: capitalize !important;
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+.price {
+    font-size: 15px;
+    color: #d01345e7;
+    letter-spacing: .5px;
+    text-align: center;
 }

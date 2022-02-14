@@ -23,11 +23,15 @@ export default (props) => {
         </div>
 
         <div className='descriptionDiv'>
-            <div className='brandName'>
+            <div>
                 <p className='brandText'>{props.mydata.brand}</p>
             </div>
-            <span>{props.mydata.title}</span>
-            <h3>{props.mydata.price}</h3>
+            <div>
+                <p className='title'>{props.mydata.title}</p>
+            </div>
+            <div>
+                <h3 className='price'>{props.mydata.price}</h3>
+            </div>
         </div>
     </div>
 }
