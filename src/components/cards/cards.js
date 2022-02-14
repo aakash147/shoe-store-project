@@ -3,20 +3,21 @@ import { useState } from 'react';
 
 export default (props) => {
 
-    let [bgColor, setBgColor] = useState("like-Btn");
+    // let [bgColor, setBgColor] = useState("like-Btn");
 
-    function changeColor() {
+    // function changeColor() {
 
-        bgColor == "like-Btn" ? setBgColor("like-BtnColor") : setBgColor('like-Btn')
-    }
+    //     bgColor == "like-Btn" ? setBgColor("like-BtnColor") : setBgColor('like-Btn')
+    // }
 
     return <div className="ad">
         <div className='imageDiv'>
-            <img
+            {/* <img
                 src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
                 className={bgColor}
                 onClick={changeColor}
-            />
+            /> */}
+            
             <div className="img-container">
                 <img src={props.mydata.url} />
             </div>

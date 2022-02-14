@@ -29,3 +29,7 @@ h2 {
     font-weight: 700;
     font-family: "Nunito",sans-serif;
 }
+
+.linkHome {
+    text-decoration: none;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Product from './components/product/product';
+import Detail from './components/detail/detail';
 
 
 function App() {
@@ -91,6 +92,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Product ads={ads} />} />
+        <Route path='detail' element = {<Detail adDetail = {ads} />} />
       </Routes>
     </BrowserRouter>
     
