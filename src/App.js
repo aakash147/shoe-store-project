@@ -4,10 +4,14 @@ import Header from './components/Header/header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Product from './components/product/product';
 import Detail from './components/detail/detail';
+import { useState } from 'react';
 
 
 function App() {
 
+  // const [data, getDate] = useState(false);
+
+  const [dataset, setDataSet] = useState(false);
   let ads = [
     {
       url: 'https://d30fs77zq6vq2v.cloudfront.net/product/515x686/04022022/17169_550_1642594272_61e7ffe0324a4-1433518224828.jpg',
@@ -83,6 +87,8 @@ function App() {
     }
   ]
 
+  console.log(dataset);
+
   return <div>
     <BrowserRouter>
       <Header />
@@ -91,11 +97,11 @@ function App() {
       </div>
 
       <Routes>
-        <Route path='/' element={<Product ads={ads} />} />
-        <Route path='detail' element = {<Detail adDetail = {ads} />} />
+        <Route path='/' element={<Product ads={ads} setDataSet={setDataSet} />} />
+        <Route path='detail' element={<Detail adDetail={dataset} />} />
       </Routes>
     </BrowserRouter>
-    
+
   </div>
 }
 
