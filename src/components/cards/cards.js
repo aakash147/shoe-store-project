@@ -1,11 +1,6 @@
 import './card.css';
-import { useState } from 'react';
 
-export default ({ mydata, setDataSet }) => {
-
-
-
-
+export default ({ mydata }) => {
 
     // let [bgColor, setBgColor] = useState("like-Btn");
 
@@ -14,9 +9,7 @@ export default ({ mydata, setDataSet }) => {
     //     bgColor == "like-Btn" ? setBgColor("like-BtnColor") : setBgColor('like-Btn')
     // }
 
-    return <div className="ad" onClick={() => {
-        setDataSet(mydata)
-    }}>
+    return <div className="ad">
         <div className='imageDiv'>
             {/* <img
                 src="https://www.olx.com.pk/assets/iconFavoriteUnselected_noinline.5767fec1cf12da79531e7c0b4a94f4e2.svg"
