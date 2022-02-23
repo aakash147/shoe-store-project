@@ -28,7 +28,7 @@ export default ({ ads }) => {
             </div>
 
             <div className="priceBox">
-                <span className="price">{price}</span>
+                <span className="detailSectionPrice">{price}</span>
             </div>
 
             <div className="btnContainer">
