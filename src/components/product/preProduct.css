@@ -1,0 +1,102 @@
+
+.detailContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.detailSectionImage {
+    width: 45%;
+    max-height: 672px !important;
+    box-shadow: 2px 2px 9px rgb(0 0 0 / 8%);
+}
+
+.descriptionOfItem {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.itemShortDetail {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.titleNameStyle {
+    margin-top: 0;
+    font-weight: bold;
+    color: #332D2D;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    letter-spacing: .8px !important;
+}
+
+.shortInfo {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    margin-top: 20px;
+    letter-spacing: 1px !important;
+
+}
+
+.review {
+    color: rgb(208, 19, 69);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px !important;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.innerPic {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.priceBox {
+    padding: 25px;
+    margin-top: 17px;
+    background-color: white;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #D01345;
+}
+
+.btnContainer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cartButton {
+    width: 370px;
+    height: 57px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(24, 6, 6);
+    border: none;
+    letter-spacing: 1px;
+}
+
+.shipmentBox {
+    padding: 25px;
+    margin-top: 17px;
+    background-color: white;
+}
+
+.shipmentInfo {
+    font-size: 15px;
+    font-weight: 600;
+    color: #332D2D;
+    margin-left: 40px;
+    letter-spacing: 1.5px !important;
+}
