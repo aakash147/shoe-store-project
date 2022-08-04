@@ -24,7 +24,7 @@ function CardStructure({ pic, title, price, product }) {
         },
       }}
     >
-      <img src={pic} alt="product picture" width="100%" height="350px" />
+      <img src={pic} alt="item view" width="100%" height="350px" />
       <Typography mt={2} color="#23262F" fontSize={{ xs: "16px", md: "18px" }}>
         {title}
       </Typography>
